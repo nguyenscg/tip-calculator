@@ -1,5 +1,7 @@
+# This should print as the first message
 print("Welcome to the Tip Calculator!")
-qtotalbill = input("What was the total bill?")
-input("How much tip would you like to give? 10, 12, or 15?")
-input("How many people to split the bill?")
+# first question prompt
+totalbill = input("What was the total bill?")
+tip = input("How much tip would you like to give? 10, 12, or 15?")
+people = input("How many people to split the bill?")
 print("Each person should pay: ")
